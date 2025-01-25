@@ -1,0 +1,6 @@
+{
+    "threads_per": 50,
+    "delay": 5,
+    
+    "use_proxies": false
+}
