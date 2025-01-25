@@ -28,7 +28,7 @@ class Processor:
                 if task is None:
                     continue
                 args, kwargs = task
-                args[1]['module_info']['begin'](*args, **kwargs)
+                args[1](*args, **kwargs)
                 self.tasks.task_done()
             except queue.Empty:
                 continue
